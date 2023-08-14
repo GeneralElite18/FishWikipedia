@@ -1,0 +1,30 @@
+body{
+  background-image: url(../images/bubbles.gif);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+nav{
+  background-color: rgb(41, 91, 124);
+  padding: 1rem;
+}
+
+nav > ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.navLinks{
+  text-decoration: none;
+  color: aliceblue;
+  text-shadow: 1px 1px black;
+  font-size: 2rem;
+}
+
+.navLinks:hover{
+  color: rgb(139, 197, 211);
+}

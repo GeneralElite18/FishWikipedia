@@ -1,0 +1,27 @@
+form{
+    padding: 1rem;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fishImage{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(41, 91, 124);
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px black;
+}
+
+.section{
+    background-color: rgb(41, 91, 124);
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 0 3px 5px black;
+    border-radius: 1rem;
+}

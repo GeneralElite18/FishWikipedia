@@ -1,0 +1,29 @@
+.edits{
+    background-color: rgb(41, 91, 124);
+    width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 0 3px 5px black;
+    border-radius: 1rem;
+}
+
+.inputs{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 2rem;
+    padding-top: 0.5rem;
+}
+
+h2{
+    padding-top: 2rem;
+}
+
+.prevImage{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(41, 91, 124);
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px black;
+}

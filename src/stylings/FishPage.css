@@ -1,0 +1,27 @@
+.list {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.list > li{
+    background-color: rgb(41, 91, 124);
+    width: 75%;
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: 0 3px 5px black;
+    border-radius: 1rem;
+}
+
+h2{
+    margin: 0;
+}
+
+.fishImage{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(41, 91, 124);
+    border-radius: 1rem;
+    box-shadow: 0 5px 10px black;
+}
